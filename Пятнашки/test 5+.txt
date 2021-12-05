@@ -1,0 +1,210 @@
+Only 3x3
+Enter start state: 203867541
+Enter final state: 263871054
+Step 1
+Possible movement options
+0 2 3
+8 6 7
+5 4 1
+Manhattan distance is: 8
+Deep is:1
+Function is: 9
+
+2 3 0
+8 6 7
+5 4 1
+Manhattan distance is: 10
+Deep is:1
+Function is: 11
+
+2 6 3
+8 0 7
+5 4 1
+Manhattan distance is: 6
+Deep is:1
+Function is: 7
+
+Selected state:
+2 6 3
+8 0 7
+5 4 1
+Manhattan distance is: 6
+Deep is:1
+Function is: 7
+
+Step 2
+Possible movement options
+2 6 3
+0 8 7
+5 4 1
+Manhattan distance is: 6
+Deep is:2
+Function is: 8
+
+2 6 3
+8 7 0
+5 4 1
+Manhattan distance is: 6
+Deep is:2
+Function is: 8
+
+2 6 3
+8 4 7
+5 0 1
+Manhattan distance is: 6
+Deep is:2
+Function is: 8
+
+Selected state:
+2 6 3
+0 8 7
+5 4 1
+Manhattan distance is: 6
+Deep is:2
+Function is: 8
+
+Step 3
+Possible movement options
+0 6 3
+2 8 7
+5 4 1
+Manhattan distance is: 8
+Deep is:3
+Function is: 11
+
+2 6 3
+5 8 7
+0 4 1
+Manhattan distance is: 6
+Deep is:3
+Function is: 9
+
+Encountered the terminal node
+Back to state:
+2 6 3
+8 4 7
+5 0 1
+
+Step 4
+Possible movement options
+2 6 3
+8 4 7
+0 5 1
+Manhattan distance is: 4
+Deep is:3
+Function is: 7
+
+2 6 3
+8 4 7
+5 1 0
+Manhattan distance is: 8
+Deep is:3
+Function is: 11
+
+Selected state:
+2 6 3
+8 4 7
+0 5 1
+Manhattan distance is: 4
+Deep is:3
+Function is: 7
+
+Step 5
+Possible movement options
+2 6 3
+0 4 7
+8 5 1
+Manhattan distance is: 6
+Deep is:4
+Function is: 10
+
+Encountered the terminal node
+Back to state:
+2 6 3
+8 7 0
+5 4 1
+
+Step 6
+Possible movement options
+2 6 0
+8 7 3
+5 4 1
+Manhattan distance is: 8
+Deep is:3
+Function is: 11
+
+2 6 3
+8 7 1
+5 4 0
+Manhattan distance is: 4
+Deep is:3
+Function is: 7
+
+Selected state:
+2 6 3
+8 7 1
+5 4 0
+Manhattan distance is: 4
+Deep is:3
+Function is: 7
+
+Step 7
+Possible movement options
+2 6 3
+8 7 1
+5 0 4
+Manhattan distance is: 2
+Deep is:4
+Function is: 6
+
+Selected state:
+2 6 3
+8 7 1
+5 0 4
+Manhattan distance is: 2
+Deep is:4
+Function is: 6
+
+Step 8
+Possible movement options
+2 6 3
+8 7 1
+0 5 4
+Manhattan distance is: 0
+Deep is:5
+Function is: 5
+
+2 6 3
+8 0 1
+5 7 4
+Manhattan distance is: 4
+Deep is:5
+Function is: 9
+
+Selected state:
+2 6 3
+8 7 1
+0 5 4
+Manhattan distance is: 0
+Deep is:5
+Function is: 5
+
+Path is
+2 0 3
+8 6 7
+5 4 1
+
+
+2 6 3
+8 7 1
+5 4 0
+
+
+2 6 3
+8 7 1
+5 0 4
+
+
+2 6 3
+8 7 1
+0 5 4

@@ -1,0 +1,64 @@
+Enter start state: 130526784
+Enter final state: 123506784
+Step 1
+Possible movement options
+1 0 3
+5 2 6
+7 8 4
+Manhattan distance is: 2
+Deep is:1
+Function is: 3
+
+1 3 6
+5 2 0
+7 8 4
+Manhattan distance is: 4
+Deep is:1
+Function is: 5
+
+Selected state:
+1 0 3
+5 2 6
+7 8 4
+Manhattan distance is: 2
+Deep is:1
+Function is: 3
+
+Step 2
+Possible movement options
+0 1 3
+5 2 6
+7 8 4
+Manhattan distance is: 4
+Deep is:2
+Function is: 6
+
+1 2 3
+5 0 6
+7 8 4
+Manhattan distance is: 0
+Deep is:2
+Function is: 2
+
+Selected state:
+1 2 3
+5 0 6
+7 8 4
+Manhattan distance is: 0
+Deep is:2
+Function is: 2
+
+Path is
+1 3 0
+5 2 6
+7 8 4
+
+
+1 0 3
+5 2 6
+7 8 4
+
+
+1 2 3
+5 0 6
+7 8 4
